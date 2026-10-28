@@ -76,9 +76,9 @@
       "A6": {
         "tasks": [
           {
-            "id": "A6-TEX-01",
-            "name": "Write a6_scalar_fields.tex",
-            "status": "pending"
+  "id": "A6-TEX-01",
+  "name": "Write a6_scalar_fields.tex",
+  "status": "in-progress"
           },
           {
             "id": "A6-LEAN-01",
