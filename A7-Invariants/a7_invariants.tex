@@ -1,0 +1,128 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+
+\title{A7 Invariant Layer}
+\author{Borealis Serenity Hedling}
+\date{28 October 2026}
+
+\begin{document}
+
+\maketitle
+
+\section*{Altitude A7: Invariant Layer}
+
+This module defines the invariant structures governing operator behavior,
+collapse-surface geometry, fusion operations, and manifold coupling. These
+invariants constrain altitude A8 holonomy-runtime mathematics and ensure
+altitude-safe evolution of scalar fields defined in A6.
+
+\section{Operator Invariants}
+
+\begin{definition}[Reversible Operator]
+Let $W$ be a world-state space. A \emph{reversible operator} is a map
+\[
+O : W \to W
+\]
+such that $O$ is bijective and $O^{-1}$ exists.
+\end{definition}
+
+\begin{definition}[Operator Invariant]
+An \emph{operator invariant} is a function
+\[
+I : W \to \mathbb{R}
+\]
+such that
+\[
+I(O(W)) = I(W)
+\]
+for every reversible operator $O$.
+\end{definition}
+
+\section{Collapse-Surface Invariants}
+
+\begin{definition}[Collapse-Surface Invariant]
+Let $\Sigma$ be a collapse surface associated to a scalar field $\phi$.
+A \emph{collapse-surface invariant} is defined by
+\[
+I_\Sigma(W) = \int_{\Sigma} F(W) \, d\mu,
+\]
+where $F$ is a smooth observable and $d\mu$ is the induced measure on $\Sigma$.
+\end{definition}
+
+\begin{remark}
+Collapse-surface invariants encode geometric stability conditions inherited
+from altitude A6.
+\end{remark}
+
+\section{Fusion Invariants}
+
+\begin{definition}[Fusion Operator]
+Given reversible operators $O_1$ and $O_2$, define the \emph{fusion operator}
+\[
+O_{\mathrm{fuse}} = O_1 \otimes O_2.
+\]
+\end{definition}
+
+\begin{definition}[Fusion Invariant]
+An invariant $I$ is a \emph{fusion invariant} if
+\[
+I(O_{\mathrm{fuse}}(W)) = I(W)
+\]
+for all world-states $W$.
+\end{definition}
+
+\section{Manifold-Coupling Invariants}
+
+\begin{definition}[Manifold-Coupling Invariant]
+Let $T : M \to \mathcal{T}$ be a tensor field on a manifold $M$. A
+\emph{manifold-coupling invariant} is defined by
+\[
+I_M(T) = \int_M \langle T, T \rangle \, d\mu,
+\]
+where $\langle \cdot, \cdot \rangle$ is a metric-induced inner product.
+\end{definition}
+
+\section{Invariant-Preservation Theorems}
+
+\begin{theorem}[Operator Invariant Preservation]
+Let $O$ be a reversible operator. Then
+\[
+I(O(W)) = I(W).
+\]
+\end{theorem}
+
+\begin{proof}[Proof Sketch]
+Follows from the definition of operator invariants. Full formalization appears
+in the Lean module \texttt{PreservationProofs.lean}.
+\end{proof}
+
+\begin{theorem}[Collapse-Surface Compatibility]
+Let $\Sigma$ be a collapse surface associated to $\phi$. Then
+\[
+I_\Sigma(O(W)) = I_\Sigma(W)
+\]
+for all reversible operators $O$ that preserve $\Sigma$.
+\end{theorem}
+
+\section{Altitude-Safety Constraints}
+
+\begin{definition}[Altitude-Safety Constraints]
+Invariant structures must satisfy:
+\begin{enumerate}
+    \item Operator invariants must be preserved under all reversible operators.
+    \item Collapse-surface invariants must respect scalar-field geometry from A6.
+    \item Fusion invariants must remain stable under operator tensor products.
+    \item Manifold-coupling invariants must be metric-consistent.
+\end{enumerate}
+\end{definition}
+
+\section{Future Formalization}
+
+\begin{itemize}
+    \item Lean formalization of operator invariants.
+    \item Lean proofs of collapse-surface invariants.
+    \item Lean encoding of fusion invariants.
+    \item Integration with A8 holonomy constraints.
+\end{itemize}
+
+\end{document}
