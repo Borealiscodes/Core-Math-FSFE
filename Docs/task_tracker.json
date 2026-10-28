@@ -73,18 +73,51 @@
           }
         ]
       },
+      {
+  "task_tracker": {
+    "altitudes": {
       "A6": {
         "tasks": [
           {
-  "id": "A6-TEX-01",
-  "name": "Write a6_scalar_fields.tex",
-  "status": "in-progress"
+            "id": "A6-TEX-01",
+            "name": "Write a6_scalar_fields.tex",
+            "status": "complete"
           },
           {
             "id": "A6-LEAN-01",
-            "name": "Implement CollapseSurfaces.lean",
+            "name": "Implement Evolution.lean (scaffold)",
+            "status": "complete"
+          },
+          {
+            "id": "A6-LEAN-02",
+            "name": "Implement CollapseSurfaces.lean (scaffold)",
+            "status": "complete"
+          },
+          {
+            "id": "A6-LEAN-03",
+            "name": "Implement SpectralEcology.lean (scaffold)",
+            "status": "complete"
+          },
+          {
+            "id": "A6-LEAN-04",
+            "name": "Implement ProjectionSeeds.lean (scaffold)",
+            "status": "complete"
+          },
+          {
+            "id": "A6-LEAN-05",
+            "name": "Formalize definitions in Lean",
+            "status": "pending"
+          },
+          {
+            "id": "A6-LEAN-06",
+            "name": "Prove altitude-safety constraints",
             "status": "pending"
           }
+        ]
+      }
+    }
+  }
+    }
         ]
       },
       "A7": {
