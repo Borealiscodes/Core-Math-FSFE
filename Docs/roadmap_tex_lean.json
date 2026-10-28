@@ -1,0 +1,124 @@
+{
+  "roadmap": {
+    "version": "1.0.0",
+    "title": "Core Math FSFE — Roadmap for .tex Modules and Lean Formalization",
+    "altitudes": {
+      "A1": {
+        "tex": ["a1_algebra.tex"],
+        "lean": [
+          "A1/Algebra/Groups.lean",
+          "A1/Algebra/Fields.lean",
+          "A1/Algebra/Linear.lean"
+        ],
+        "description": "Algebraic foundations including groups, rings, fields, and linear operators."
+      },
+      "A2": {
+        "tex": ["a2_operators.tex"],
+        "lean": [
+          "A2/Operators/Reversible.lean",
+          "A2/Operators/Fusion.lean",
+          "A2/Operators/Laws.lean"
+        ],
+        "description": "Reversible operators, operator-chain composition, fusion rules, and operator axioms."
+      },
+      "A3": {
+        "tex": ["a3_tensors.tex"],
+        "lean": [
+          "A3/Tensors/State.lean",
+          "A3/Tensors/Coupling.lean"
+        ],
+        "description": "Tensor structures for world-state, ecology, rasa, and zone modeling."
+      },
+      "A4": {
+        "tex": ["a4_manifolds.tex"],
+        "lean": [
+          "A4/Manifolds/Base.lean",
+          "A4/Manifolds/Curvature.lean",
+          "A4/Manifolds/Holonomy.lean"
+        ],
+        "description": "Manifold geometry including curvature, holonomy, and bundle structures."
+      },
+      "A5": {
+        "tex": ["a5_narrative_physics.tex"],
+        "lean": [
+          "A5/Narrative/Evolution.lean",
+          "A5/Narrative/LieDerivative.lean"
+        ],
+        "description": "Narrative-physics evolution equations and tensor interactions."
+      },
+      "A6": {
+        "tex": ["a6_scalar_fields.tex"],
+        "lean": [
+          "A6/ScalarFields/Evolution.lean",
+          "A6/ScalarFields/CollapseSurfaces.lean",
+          "A6/ScalarFields/SpectralEcology.lean",
+          "A6/ScalarFields/ProjectionSeeds.lean"
+        ],
+        "description": "CSO scalar-field geometry, collapse surfaces, spectral ecology, and projection seeds."
+      },
+      "A7": {
+        "tex": ["a7_invariants.tex"],
+        "lean": [
+          "A7/Invariants/Operator.lean",
+          "A7/Invariants/Collapse.lean",
+          "A7/Invariants/Fusion.lean",
+          "A7/Invariants/ManifoldCoupling.lean",
+          "A7/Invariants/PreservationProofs.lean"
+        ],
+        "description": "Invariant layer including operator, collapse-surface, fusion, and manifold-coupling invariants."
+      },
+      "A8": {
+        "tex": ["a8_holonomy_runtime.tex"],
+        "lean": [
+          "A8/Holonomy/Operator.lean",
+          "A8/Holonomy/CurvatureEvolution.lean",
+          "A8/Holonomy/SpectralIntegration.lean",
+          "A8/Holonomy/Fusion.lean",
+          "A8/Holonomy/Constraints.lean"
+        ],
+        "description": "Holonomy-runtime mathematics including curvature evolution, spectral integration, and reversible runtime fusion."
+      }
+    },
+    "guard_integration": {
+      "files": [
+        "Guard/operator-grounding.yaml",
+        "Guard/invariant-grounding.yaml",
+        "Guard/scalar-field-grounding.yaml",
+        "Guard/holonomy-grounding.yaml"
+      ],
+      "requirements": [
+        "All .tex definitions must map to Lean modules.",
+        "All Lean theorems must reference .tex definitions.",
+        "No invented mathematical structure.",
+        "No unstated assumptions.",
+        "Altitude consistency enforced across A6–A8."
+      ]
+    },
+    "cross_altitude_consistency": {
+      "lean_modules": [
+        "Lean/Altitude/ConsistencyA6A7.lean",
+        "Lean/Altitude/ConsistencyA7A8.lean",
+        "Lean/Altitude/ConsistencyA6A8.lean"
+      ],
+      "rules": [
+        "A6 scalar-field evolution must preserve A7 invariants.",
+        "A7 invariants must constrain A8 holonomy operators.",
+        "A8 holonomy operators must respect A6 collapse surfaces."
+      ]
+    },
+    "outputs": {
+      "tex_compilation": [
+        "fsfe_core_math_preprint.tex",
+        "fsfe_invariant_layer_appendix.tex",
+        "fsfe_holonomy_runtime_appendix.tex"
+      ],
+      "lean_export": "lean_proof_export.pdf"
+    },
+    "provenance": {
+      "location": "Dublin, Ireland",
+      "date": "28 October 2026",
+      "author": "Borealis Serenity Hedling",
+      "purpose": "Define altitude-aligned mathematical production pipeline for A1–A8 including scalar-field geometry, invariant construction, holonomy-runtime math, Lean verification, hallucination-guard integration, and cross-altitude consistency for NDH architecture."
+    }
+  }
+}
