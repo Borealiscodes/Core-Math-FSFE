@@ -1,0 +1,149 @@
+{
+  "task_tracker": {
+    "version": "1.0.0",
+    "status": "active",
+    "altitudes": {
+      "A1": {
+        "tasks": [
+          {
+            "id": "A1-TEX-01",
+            "name": "Write a1_algebra.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A1-LEAN-01",
+            "name": "Implement Groups.lean",
+            "status": "pending"
+          }
+        ]
+      },
+      "A2": {
+        "tasks": [
+          {
+            "id": "A2-TEX-01",
+            "name": "Write a2_operators.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A2-LEAN-01",
+            "name": "Implement Reversible.lean",
+            "status": "pending"
+          }
+        ]
+      },
+      "A3": {
+        "tasks": [
+          {
+            "id": "A3-TEX-01",
+            "name": "Write a3_tensors.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A3-LEAN-01",
+            "name": "Implement State.lean",
+            "status": "pending"
+          }
+        ]
+      },
+      "A4": {
+        "tasks": [
+          {
+            "id": "A4-TEX-01",
+            "name": "Write a4_manifolds.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A4-LEAN-01",
+            "name": "Implement Curvature.lean",
+            "status": "pending"
+          }
+        ]
+      },
+      "A5": {
+        "tasks": [
+          {
+            "id": "A5-TEX-01",
+            "name": "Write a5_narrative_physics.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A5-LEAN-01",
+            "name": "Implement Evolution.lean",
+            "status": "pending"
+          }
+        ]
+      },
+      "A6": {
+        "tasks": [
+          {
+            "id": "A6-TEX-01",
+            "name": "Write a6_scalar_fields.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A6-LEAN-01",
+            "name": "Implement CollapseSurfaces.lean",
+            "status": "pending"
+          }
+        ]
+      },
+      "A7": {
+        "tasks": [
+          {
+            "id": "A7-TEX-01",
+            "name": "Write a7_invariants.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A7-LEAN-01",
+            "name": "Implement PreservationProofs.lean",
+            "status": "pending"
+          }
+        ]
+      },
+      "A8": {
+        "tasks": [
+          {
+            "id": "A8-TEX-01",
+            "name": "Write a8_holonomy_runtime.tex",
+            "status": "pending"
+          },
+          {
+            "id": "A8-LEAN-01",
+            "name": "Implement Holonomy/Operator.lean",
+            "status": "pending"
+          }
+        ]
+      }
+    },
+    "guard": {
+      "tasks": [
+        {
+          "id": "GUARD-01",
+          "name": "Add operator-grounding.yaml",
+          "status": "pending"
+        },
+        {
+          "id": "GUARD-02",
+          "name": "Add invariant-grounding.yaml",
+          "status": "pending"
+        },
+        {
+          "id": "GUARD-03",
+          "name": "Add scalar-field-grounding.yaml",
+          "status": "pending"
+        },
+        {
+          "id": "GUARD-04",
+          "name": "Add holonomy-grounding.yaml",
+          "status": "pending"
+        }
+      ]
+    },
+    "provenance": {
+      "location": "Dublin, Ireland",
+      "date": "28 October 2026",
+      "author": "Borealis Serenity Hedling"
+    }
+  }
+}
