@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+
+\title{A6 Scalar-Field Geometry}
+\author{Borealis Serenity Hedling}
+\date{28 October 2026}
+
+\begin{document}
+
+\maketitle
+
+\section*{Altitude A6: CSO Scalar-Field Geometry}
+
+This module defines the scalar-field structures, collapse-surface operators,
+spectral ecology, and projection seeds that form the mathematical foundation
+for the invariant layer (A7) and holonomy-runtime mathematics (A8).
+
+\section{Scalar Fields}
+
+\begin{definition}[Scalar Field]
+Let $M$ be a smooth manifold. A \emph{scalar field} is a smooth function
+\[
+\phi : M \to \mathbb{R}.
+\]
+\end{definition}
+
+\section{Evolution Operator}
+
+\begin{definition}[Scalar-Field Evolution Operator]
+Let $\nabla$ denote the Levi-Civita gradient on $M$ and let
+$\kappa : C^\infty(M) \to C^\infty(M)$ encode spectral-ecology interactions.
+The scalar-field evolution operator is defined by
+\[
+E(\phi) = \nabla \phi + \kappa(\phi).
+\]
+\end{definition}
+
+\begin{remark}
+The operator $E$ governs altitude-safe scalar-field evolution and determines
+the geometry of collapse surfaces.
+\end{remark}
+
+\section{Collapse Surfaces}
+
+\begin{definition}[Collapse Surface]
+Given a scalar field $\phi$, the \emph{collapse surface} associated to $\phi$
+is the set
+\[
+\Sigma = \{ x \in M \mid E(\phi)(x) = 0 \}.
+\]
+\end{definition}
+
+\begin{remark}
+Collapse surfaces represent equilibrium loci where scalar-field evolution
+stabilizes. They serve as the geometric basis for invariant construction in
+altitude A7.
+\end{remark}
+
+\section{Spectral Ecology}
+
+\begin{definition}[Spectral Ecology Operators]
+Let $\{ \lambda_i \}_{i \in I}$ be altitude-normalized spectral coefficients.
+For each $i$, define the spectral operator
+\[
+S_i(\phi) = \lambda_i \phi.
+\]
+\end{definition}
+
+\begin{remark}
+Spectral ecology governs scalar-field modulation and interacts with collapse
+surfaces to determine altitude-safe evolution trajectories.
+\end{remark}
+
+\section{Projection Seeds}
+
+\begin{definition}[Projection Seed]
+A \emph{projection seed} is a pair $(\phi, \Sigma)$ such that
+\[
+\phi|_{\Sigma} = \text{const}, \qquad \nabla \phi|_{\Sigma} = 0.
+\]
+\end{definition}
+
+\begin{remark}
+Projection seeds define reversible transitions into the invariant layer and
+provide the geometric substrate for altitude A7.
+\end{remark}
+
+\section{Altitude-Safety Constraints}
+
+\begin{definition}[Altitude-Safety Constraints]
+Scalar-field evolution must satisfy:
+\begin{enumerate}
+    \item $E(\phi)$ is well-defined and smooth on $M$.
+    \item Collapse surfaces $\Sigma$ are smooth submanifolds of $M$.
+    \item Spectral ecology coefficients $\lambda_i$ obey altitude-normalization.
+    \item Projection seeds preserve collapse-surface geometry.
+\end{enumerate}
+\end{definition}
+
+\section{Future Formalization}
+
+\begin{itemize}
+    \item Lean formalization of $E(\phi)$.
+    \item Lean definition of collapse surfaces.
+    \item Lean proofs of altitude-safety constraints.
+    \item Integration with A7 invariant-preservation theorems.
+\end{itemize}
+
+\end{document}
