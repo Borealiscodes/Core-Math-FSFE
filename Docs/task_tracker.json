@@ -331,7 +331,22 @@
         }
       }
     }
+  }{
+  "task_tracker": {
+    "altitudes": {
+      "A7": {
+        "proofs": {
+          "manifold_coupling_consistent": {
+            "id": "A7-PROOF-04",
+            "name": "A7 manifold_coupling_consistent proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A7-Invariants/Proofs/ManifoldCouplingInvariants.lean"
+          }
+        }
+      }
+    }
   }
+          }
       }
       }
       {
