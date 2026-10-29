@@ -156,21 +156,41 @@
     }
   }
 }
+      {
+  "task_tracker": {
+    "altitudes": {
       "A8": {
         "tasks": [
           {
-            "id": "A8-TEX-01",
-            "name": "Write a8_holonomy_runtime.tex",
-            "status": "pending"
+            "id": "A8-LEAN-01",
+            "name": "Implement Operator.lean (scaffold)",
+            "status": "complete"
           },
           {
-            "id": "A8-LEAN-01",
-            "name": "Implement Holonomy/Operator.lean",
-            "status": "pending"
+            "id": "A8-LEAN-02",
+            "name": "Implement CurvatureEvolution.lean (scaffold)",
+            "status": "complete"
+          },
+          {
+            "id": "A8-LEAN-03",
+            "name": "Implement SpectralIntegration.lean (scaffold)",
+            "status": "complete"
+          },
+          {
+            "id": "A8-LEAN-04",
+            "name": "Implement Fusion.lean (scaffold)",
+            "status": "complete"
+          },
+          {
+            "id": "A8-LEAN-05",
+            "name": "Implement Constraints.lean (scaffold)",
+            "status": "complete"
           }
         ]
       }
-    },
+    }
+  }
+      }
     "guard": {
       "tasks": [
         {
