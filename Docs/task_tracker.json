@@ -28,7 +28,20 @@
     }
   }
 }
-
+{
+  "task_tracker": {
+    "documentation": {
+      "meta": {
+        "fsfe_proofsuite_summary": {
+          "id": "DOC-META-PS-SUMMARY-01",
+          "name": "FSFE Proof Completion Summary + Preprint Integration Checklist",
+          "status": "complete",
+          "path": "core-math-fsfe/Documentation/Meta/FSFE-ProofSuite-Summary.md"
+        }
+      }
+    }
+  }
+}
 {
   "task_tracker": {
     "version": "1.0.0",
