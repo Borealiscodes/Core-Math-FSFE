@@ -1,0 +1,22 @@
+guard:
+  name: operator-grounding
+  altitude: A7
+  purpose: >
+    Ensure operator invariants are preserved across reversible operators
+    and runtime holonomy operators.
+
+  bindings:
+    reversible_operator:
+      lean: A7.ReversibleOperator
+      tex: "Reversible Operator (A7)"
+    operator_invariant:
+      lean: A7.OperatorInvariant
+      tex: "Operator Invariant (A7)"
+    holonomy_operator:
+      lean: A8.HolonomyOperator
+      tex: "Holonomy Operator (A8)"
+
+  constraints:
+    - "Holonomy operators must preserve all operator invariants."
+    - "Fusion operators must remain reversible."
+    - "No operator may alter invariant values."
