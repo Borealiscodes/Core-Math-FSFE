@@ -1,0 +1,30 @@
+guard:
+  name: holonomy-grounding
+  altitude: A8
+  purpose: >
+    Bind holonomy-runtime mathematics to Lean structures and enforce
+    invariant-preservation, curvature evolution safety, and spectral integration
+    consistency.
+
+  bindings:
+    holonomy_operator:
+      lean: A8.HolonomyOperator
+      tex: "Holonomy Operator (A8)"
+    curvature_evolution:
+      lean: A8.CurvatureEvolution
+      tex: "Curvature Evolution (A8)"
+    spectral_integration:
+      lean: A8.SpectralIntegration
+      tex: "Spectral Integration (A8)"
+    fusion_operator:
+      lean: A8.FusionOperator
+      tex: "Runtime Fusion Operator (A8)"
+    holonomy_constraint:
+      lean: A8.HolonomyConstraint
+      tex: "Holonomy Constraint (A8)"
+
+  constraints:
+    - "Holonomy operators must preserve A7 invariants."
+    - "Curvature evolution must respect scalar-field geometry from A6."
+    - "Spectral integration must remain altitude-normalized."
+    - "Runtime fusion must be reversible and invariant-safe."
