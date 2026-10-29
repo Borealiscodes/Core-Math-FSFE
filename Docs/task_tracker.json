@@ -425,7 +425,22 @@
         }
       }
     }
+  }{
+  "task_tracker": {
+    "altitudes": {
+      "A8": {
+        "proofs": {
+          "curvature_evolution_respects_invariants": {
+            "id": "A8-PROOF-02",
+            "name": "A8 curvature_evolution_respects_invariants proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A8-HolonomyRuntime/Proofs/CurvatureEvolution.lean"
+          }
+        }
+      }
+    }
   }
+          }
       }
     "{
   "task_tracker": {
