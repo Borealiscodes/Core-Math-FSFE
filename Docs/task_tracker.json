@@ -317,7 +317,22 @@
         }
       }
     }
+  }{
+  "task_tracker": {
+    "altitudes": {
+      "A7": {
+        "proofs": {
+          "fusion_invariant_stable": {
+            "id": "A7-PROOF-03",
+            "name": "A7 fusion_invariant_stable proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A7-Invariants/Proofs/FusionInvariants.lean"
+          }
+        }
+      }
+    }
   }
+      }
       }
       {
   "task_tracker": {
