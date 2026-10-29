@@ -208,7 +208,22 @@
     }
   }
 }
-      },
+      },{
+  "task_tracker": {
+    "altitudes": {
+      "A6": {
+        "proofs": {
+          "spectral_normalized": {
+            "id": "A6-PROOF-03",
+            "name": "A6 spectral_normalized proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A6-CSO-Scalar-Fields/Proofs/SpectralEcology.lean"
+          }
+        }
+      }
+    }
+  }
+      }
       "{
   {
   "task_tracker": {
