@@ -303,7 +303,21 @@
       }
     }
   }
+  }{
+  "task_tracker": {
+    "altitudes": {
+      "Consistency": {
+        "tasks": [
+          {
+            "id": "CONS-PROOF-PREP-01",
+            "name": "Add lemma spine and proof outlines for cross-altitude consistency",
+            "status": "complete"
+          }
+        ]
+      }
+    }
   }
+    }
         ]
       }
     }
