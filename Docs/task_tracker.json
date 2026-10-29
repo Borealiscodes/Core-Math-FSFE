@@ -203,7 +203,21 @@
         ]
       }
     }
+  }{
+  "task_tracker": {
+    "altitudes": {
+      "A8": {
+        "tasks": [
+          {
+            "id": "A8-LEAN-06",
+            "name": "Add theorem signatures for A8 holonomy-runtime",
+            "status": "complete"
+          }
+        ]
+      }
+    }
   }
+      }
       }
     "{
   "task_tracker": {
