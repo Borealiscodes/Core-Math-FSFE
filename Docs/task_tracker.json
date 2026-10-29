@@ -121,39 +121,35 @@
         ]
       },
       "{
+  {
   "task_tracker": {
     "altitudes": {
       "A7": {
         "tasks": [
           {
-            "id": "A7-TEX-01",
-            "name": "Write a7_invariants.tex",
-            "status": "complete"
-          },
-          {
             "id": "A7-LEAN-01",
             "name": "Implement OperatorInvariants.lean (scaffold)",
-            "status": "pending"
+            "status": "complete"
           },
           {
             "id": "A7-LEAN-02",
             "name": "Implement CollapseInvariants.lean (scaffold)",
-            "status": "pending"
+            "status": "complete"
           },
           {
             "id": "A7-LEAN-03",
             "name": "Implement FusionInvariants.lean (scaffold)",
-            "status": "pending"
+            "status": "complete"
           },
           {
             "id": "A7-LEAN-04",
             "name": "Implement ManifoldCouplingInvariants.lean (scaffold)",
-            "status": "pending"
+            "status": "complete"
           },
           {
             "id": "A7-LEAN-05",
-            "name": "Implement PreservationProofs.lean",
-            "status": "pending"
+            "name": "Implement PreservationProofs.lean (scaffold)",
+            "status": "complete"
           }
         ]
       }
