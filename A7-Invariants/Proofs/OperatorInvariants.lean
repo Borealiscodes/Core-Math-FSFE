@@ -1,7 +1,7 @@
 /-
 A7 Invariants — Operator Invariant Preservation Proof
 Author: Borealis Serenity Hedling
-Date: 29 October 2026
+Date: 29 October 2026 
 
 This file contains the actual proof of the operator_invariant_preserved theorem.
 It uses only altitude-local definitions: operator invariants and reversible
