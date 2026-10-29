@@ -176,6 +176,21 @@
       }
     }
   }
+}{
+  "task_tracker": {
+    "altitudes": {
+      "A6": {
+        "proofs": {
+          "evolution_smooth": {
+            "id": "A6-PROOF-01",
+            "name": "A6 evolution_smooth proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A6-CSO-Scalar-Fields/Proofs/Evolution.lean"
+          }
+        }
+      }
+    }
+  }
 }
         ]
       },
