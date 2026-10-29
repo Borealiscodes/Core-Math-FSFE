@@ -1,0 +1,118 @@
+% ============================================================
+% FSFE Preprint — Preamble
+% Author: Borealis Serenity Hedling
+% Date: 29 October 2026
+% ============================================================
+
+% -------------------------------
+% Document Encoding and Layout
+% -------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{microtype}
+
+% -------------------------------
+% Mathematics Packages
+% -------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{bm}
+
+% -------------------------------
+% Theorem Environments
+% -------------------------------
+\usepackage{amsthm}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% -------------------------------
+% Lean Code Rendering
+% -------------------------------
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{leanbg}{RGB}{250,250,250}
+\definecolor{leanborder}{RGB}{220,220,220}
+\definecolor{leanblue}{RGB}{0,70,140}
+\definecolor{leancomment}{RGB}{120,120,120}
+
+\lstdefinelanguage{Lean}{
+  keywords={import,namespace,variable,def,theorem,lemma,inductive,structure},
+  keywordstyle=\color{leanblue}\bfseries,
+  comment=[l]{--},
+  commentstyle=\color{leancomment}\ttfamily,
+  stringstyle=\color{purple},
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  columns=fullflexible
+}
+
+\lstset{
+  language=Lean,
+  backgroundcolor=\color{leanbg},
+  frame=single,
+  rulecolor=\color{leanborder},
+  frameround=tttt,
+  framesep=6pt,
+  xleftmargin=1em,
+  xrightmargin=1em
+}
+
+% -------------------------------
+% Altitude-Safe Macros
+% -------------------------------
+\newcommand{\Altitude}[1]{\textbf{Altitude #1}}
+\newcommand{\A}[1]{\textbf{A#1}}
+
+\newcommand{\Hol}{\mathsf{Hol}}
+\newcommand{\Curv}{\mathsf{Curv}}
+\newcommand{\SpecInt}{\mathsf{SpecInt}}
+\newcommand{\Fuse}{\mathsf{Fuse}}
+
+% -------------------------------
+% FSFE Metadata
+% -------------------------------
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=leanblue,
+    urlcolor=leanblue,
+    citecolor=leanblue,
+    pdfauthor={Borealis Serenity Hedling},
+    pdftitle={FSFE Firewall Companion Preprint}
+}
+
+% -------------------------------
+% Section Formatting
+% -------------------------------
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+% -------------------------------
+% Bibliography
+% -------------------------------
+\usepackage[numbers]{natbib}
+\bibliographystyle{plainnat}
+
+% ============================================================
+% End of Preamble
+% ============================================================
