@@ -303,6 +303,21 @@
     }
   }
   }
+      }{
+  "task_tracker": {
+    "altitudes": {
+      "A7": {
+        "proofs": {
+          "collapse_invariant_preserved": {
+            "id": "A7-PROOF-02",
+            "name": "A7 collapse_invariant_preserved proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A7-Invariants/Proofs/CollapseInvariants.lean"
+          }
+        }
+      }
+    }
+  }
       }
       {
   "task_tracker": {
