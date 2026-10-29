@@ -183,7 +183,21 @@
       }
     }
   }
-}
+}{
+  "task_tracker": {
+    "altitudes": {
+      "A7": {
+        "tasks": [
+          {
+            "id": "A7-PROOF-PREP-01",
+            "name": "Add lemma spine and proof outlines for A7",
+            "status": "complete"
+          }
+        ]
+      }
+    }
+  }
+      }
       {
   "task_tracker": {
     "altitudes": {
