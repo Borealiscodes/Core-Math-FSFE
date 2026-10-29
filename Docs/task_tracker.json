@@ -411,6 +411,21 @@
       }
     }
   }
+      }{
+  "task_tracker": {
+    "altitudes": {
+      "A8": {
+        "proofs": {
+          "holonomy_preserves_invariants": {
+            "id": "A8-PROOF-01",
+            "name": "A8 holonomy_preserves_invariants proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A8-HolonomyRuntime/Proofs/Holonomy.lean"
+          }
+        }
+      }
+    }
+  }
       }
     "{
   "task_tracker": {
