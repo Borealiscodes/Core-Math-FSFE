@@ -117,7 +117,21 @@
       }
     }
   }
+    }{
+  "task_tracker": {
+    "altitudes": {
+      "A6": {
+        "tasks": [
+          {
+            "id": "A6-LEAN-07",
+            "name": "Add theorem signatures for A6 geometry",
+            "status": "complete"
+          }
+        ]
+      }
     }
+  }
+  }
         ]
       },
       "{
