@@ -1,0 +1,22 @@
+guard:
+  name: invariant-grounding
+  altitude: A7
+  purpose: >
+    Bind invariant definitions to Lean structures and prevent drift between
+    collapse-surface invariants, fusion invariants, and manifold-coupling invariants.
+
+  bindings:
+    collapse_invariant:
+      lean: A7.CollapseInvariant
+      tex: "Collapse-Surface Invariant (A7)"
+    fusion_invariant:
+      lean: A7.FusionInvariant
+      tex: "Fusion Invariant (A7)"
+    manifold_coupling:
+      lean: A7.ManifoldCouplingInvariant
+      tex: "Manifold-Coupling Invariant (A7)"
+
+  constraints:
+    - "Collapse-surface invariants must respect scalar-field geometry from A6."
+    - "Fusion invariants must remain stable under tensor fusion."
+    - "Manifold-coupling invariants must be metric-consistent."
