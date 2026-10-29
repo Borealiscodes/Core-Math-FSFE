@@ -224,7 +224,22 @@
     }
   }
       }
-      "{
+      "{{
+  "task_tracker": {
+    "altitudes": {
+      "A6": {
+        "proofs": {
+          "projection_seed_preserves_geometry": {
+            "id": "A6-PROOF-04",
+            "name": "A6 projection_seed_preserves_geometry proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A6-CSO-Scalar-Fields/Proofs/ProjectionSeeds.lean"
+          }
+        }
+      }
+    }
+  }
+      }
   {
   "task_tracker": {
     "altitudes": {
