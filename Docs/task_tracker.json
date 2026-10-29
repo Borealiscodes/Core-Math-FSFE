@@ -449,7 +449,22 @@
             "name": "A8 spectral_integration_respects_invariants proof",
             "status": "complete",
             "path": "core-math-fsfe/A8-HolonomyRuntime/Proofs/SpectralIntegration.lean"
+          }{
+  "task_tracker": {
+    "altitudes": {
+      "A8": {
+        "proofs": {
+          "runtime_fusion_reversible": {
+            "id": "A8-PROOF-04",
+            "name": "A8 runtime_fusion_reversible proof",
+            "status": "complete",
+            "path": "core-math-fsfe/A8-HolonomyRuntime/Proofs/RuntimeFusion.lean"
           }
+        }
+      }
+    }
+  }
+      }
         }
       }
     }
