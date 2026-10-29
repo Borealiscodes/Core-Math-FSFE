@@ -191,7 +191,7 @@
       }
     }
   }
-}
+}Add Lean proof for A6 collapsesurfaceregular theorem, establishing smoothness of collapse surfaces via the implicit function theorem. Implements altitude-local proof using nonvanishing gradient condition and Mathlib hypersurface regularity tools.
         ]
       },
       "{
