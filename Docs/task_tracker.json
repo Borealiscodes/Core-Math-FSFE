@@ -246,6 +246,20 @@
     }
   }
       }
+      }{
+  "task_tracker": {
+    "altitudes": {
+      "A8": {
+        "tasks": [
+          {
+            "id": "A8-PROOF-PREP-01",
+            "name": "Add lemma spine and proof outlines for A8",
+            "status": "complete"
+          }
+        ]
+      }
+    }
+  }
       }
     "{
   "task_tracker": {
