@@ -1,0 +1,29 @@
+guard:
+  name: scalar-field-grounding
+  altitude: A6
+  purpose: >
+    Ensure scalar-field evolution, collapse surfaces, spectral ecology, and
+    projection seeds remain altitude-safe and consistent with Lean definitions.
+
+  bindings:
+    scalar_field:
+      lean: A6.ScalarField
+      tex: "Scalar Field (A6)"
+    evolution_operator:
+      lean: A6.EvolutionOperator
+      tex: "Evolution Operator (A6)"
+    collapse_surface:
+      lean: A6.CollapseSurface
+      tex: "Collapse Surface (A6)"
+    spectral_operator:
+      lean: A6.spectralOp
+      tex: "Spectral Ecology (A6)"
+    projection_seed:
+      lean: A6.ProjectionSeed
+      tex: "Projection Seed (A6)"
+
+  constraints:
+    - "Evolution operator must be smooth."
+    - "Collapse surfaces must be well-defined submanifolds."
+    - "Spectral coefficients must remain altitude-normalized."
+    - "Projection seeds must preserve collapse-surface geometry."
