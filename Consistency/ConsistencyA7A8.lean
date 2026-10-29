@@ -3,7 +3,7 @@ Cross-Altitude Consistency
 A7 → A8
 Author: Borealis Serenity Hedling
 Date: 29 October 2026
--/
+-/ 
 
 import A7.Theorems
 import A8.Theorems
