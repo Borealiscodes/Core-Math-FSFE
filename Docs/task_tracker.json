@@ -247,25 +247,21 @@
     }
 
     {
+  "{
   "task_tracker": {
     "altitudes": {
       "Consistency": {
         "tasks": [
           {
-            "id": "CONS-01",
-            "name": "Implement ConsistencyA6A7.lean (scaffold)",
-            "status": "complete"
-          },
-          {
-            "id": "CONS-02",
-            "name": "Implement ConsistencyA7A8.lean (scaffold)",
-            "status": "complete"
-          },
-          {
-            "id": "CONS-03",
-            "name": "Implement ConsistencyA6A8.lean (scaffold)",
+            "id": "CONS-04",
+            "name": "Populate consistency modules with real conditions",
             "status": "complete"
           }
+        ]
+      }
+    }
+  }
+  }
         ]
       }
     }
