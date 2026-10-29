@@ -5,22 +5,28 @@ Author: Borealis Serenity Hedling
 Date: 29 October 2026
 -/
 
+import A6.Theorems
+import A7.Theorems
 import A6.Evolution
 import A6.CollapseSurfaces
-import A7.OperatorInvariants
 import A7.CollapseInvariants
+import Mathlib.Geometry.Manifold.Basic
 
 namespace Consistency
 
 variable {M W : Type} [SmoothManifold M]
 
--- A6 → A7 consistency: collapse surfaces must respect invariants
 structure ConsistencyA6A7 :=
   (φ : A6.ScalarField M)
   (E : A6.EvolutionOperator M)
-  (Σ : Set M := A6.CollapseSurface φ E)
   (IΣ : A7.CollapseInvariant W)
-  (preserved :
-    ∀ (w : W), True)  -- placeholder for real invariant-preservation condition
+
+  /-- Collapse surfaces must be regular (A6 theorem). -/
+  (collapse_regular :
+    A6.collapse_surface_regular φ E = True)
+
+  /-- Collapse-surface invariants must be preserved (A7 theorem). -/
+  (invariant_preserved :
+    ∀ w : W, A7.collapse_invariant_preserved IΣ w = True)
 
 end Consistency
