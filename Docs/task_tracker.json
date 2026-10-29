@@ -1,5 +1,36 @@
 {
   "task_tracker": {
+    "developer_notes": {
+      "AltitudeSeparationPrinciples": {
+        "id": "DEVNOTE-ASP-01",
+        "name": "Add Developer Note: Altitude Separation Principles",
+        "status": "complete",
+        "path": "developer-notes/AltitudeSeparationPrinciples.md"
+      },
+      "GuardSpecificationArchitecture": {
+        "id": "DEVNOTE-GSA-01",
+        "name": "Add Developer Note: Guard Specification Architecture",
+        "status": "complete",
+        "path": "developer-notes/GuardSpecificationArchitecture.md"
+      },
+      "PreprintAssemblyWorkflow": {
+        "id": "DEVNOTE-PAW-01",
+        "name": "Add Developer Note: Preprint Assembly Workflow",
+        "status": "complete",
+        "path": "developer-notes/PreprintAssemblyWorkflow.md"
+      },
+      "DeveloperNoteIndex": {
+        "id": "DEVNOTE-INDEX-01",
+        "name": "Add Developer Note Index",
+        "status": "complete",
+        "path": "developer-notes/DeveloperNoteIndex.md"
+      }
+    }
+  }
+}
+
+{
+  "task_tracker": {
     "version": "1.0.0",
     "status": "active",
     "altitudes": {
